@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.ChooseLevelDialog"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/choose_level_dialog_background"
+    tools:context=".LevelChooseDialogActivity">
+
+    <LinearLayout
+        android:id="@+id/levelChooseLayer"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textSize="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFAFBFCC"
+            android:text="Level" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <Button
+                    android:id="@+id/L1btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="1" />
+
+                <Button
+                    android:id="@+id/L2btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="2" />
+
+                <Button
+                    android:id="@+id/L3btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="3" />
+
+                <Button
+                    android:id="@+id/L4btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="4" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/L5btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="5" />
+
+                <Button
+                    android:id="@+id/L6btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="6" />
+
+                <Button
+                    android:id="@+id/L7btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="7" />
+
+                <Button
+                    android:id="@+id/L8btn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="12dp"
+                    android:background="@drawable/choose_levelbtn"
+                    android:textColor="#FFAABBCC"
+                    android:text="8" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/levelSpecificationLayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:visibility="gone"
+        android:gravity="fill">
+        <TextView
+            android:id="@+id/levelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFAFBFCC"
+            android:text="Level 1" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="Best" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="  |  " />
+            <TextView
+                android:id="@+id/LevelSpecBestRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text= ""/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="Recent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="  |  " />
+            <TextView
+                android:id="@+id/LevelSpecRecentRecord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginBottom="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/resetTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:typeface="serif"
+                android:textColor="#FF99AABB"
+                android:text="Reset Level n Record"
+                android:background="#00000000"
+                android:clickable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|bottom">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/dialog_backBtn"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:typeface="serif"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/back_in_dialog_btn"
+                    android:textColor="#FFAABBCC"
+                    android:text="Back" />
+                <Button
+                    android:id="@+id/startBtn"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:typeface="serif"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/start_game_in_dialog_btn"
+                    android:text="Start" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
