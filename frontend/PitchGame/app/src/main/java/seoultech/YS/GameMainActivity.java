@@ -63,7 +63,7 @@ public class GameMainActivity extends AppCompatActivity {
 
         if(level == 1){
             levelTitle = findViewById(R.id.levelText_in_GameLv1to4);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level1to4Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -209,7 +209,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[0] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv1to4);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level1to4Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -341,7 +341,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[0] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv1to4);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level1to4Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -474,7 +474,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[1] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv1to4);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level1to4Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -603,7 +603,7 @@ public class GameMainActivity extends AppCompatActivity {
         }
         else if(level == 5){
             levelTitle = findViewById(R.id.levelText_in_GameLv5to8);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level5to8Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -805,7 +805,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[0] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv5to8);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level5to8Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -999,7 +999,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[0] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv5to8);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level5to8Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -1194,7 +1194,7 @@ public class GameMainActivity extends AppCompatActivity {
             tmp[1] = new String();
 
             levelTitle = findViewById(R.id.levelText_in_GameLv5to8);
-            levelTitle.setText("Level " + level);
+            levelTitle.setText("난이도 " + level);
 
             linearLayout = findViewById(R.id.level5to8Layout);
             linearLayout.setVisibility(View.VISIBLE);
@@ -1682,7 +1682,7 @@ public class GameMainActivity extends AppCompatActivity {
         super.onStop();
         if(isEnded){
             Intent intent = new Intent(GameMainActivity.this, GameResultDialogActivity.class);
-            intent.putExtra("level", level);
+            intent.putExtra("난이도", level);
             startActivity(intent);
         }
     }

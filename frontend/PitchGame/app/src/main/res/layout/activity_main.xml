@@ -26,7 +26,8 @@
             android:textSize="40dp"
             android:textColor="#FFBBCCDD"
             android:typeface="serif"
-            android:text="Pitch Game" />
+            android:fontFamily="@font/iropke"
+            android:text="절대음감게임" />
 
         <Button
             android:id="@+id/playBtn"
@@ -37,7 +38,8 @@
             android:textSize="20dp"
             android:textColor="#CCEEEEEE"
             android:typeface="serif"
-            android:text="play" />
+            android:fontFamily="@font/iropke"
+            android:text="시작" />
 
         <LinearLayout
             android:layout_width="match_parent"

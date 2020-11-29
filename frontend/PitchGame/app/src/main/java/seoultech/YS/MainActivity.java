@@ -79,6 +79,6 @@ public class MainActivity extends AppCompatActivity implements SharedPreferences
             if(records[i] == 0) maxClearLevel = i+1;
         }
         if(maxClearLevel == -1) bestScoreText.setText("None");
-        else bestScoreText.setText("Level " + maxClearLevel + " Clear");
+        else bestScoreText.setText("난이도 " + maxClearLevel + " Clear");
     }
 }

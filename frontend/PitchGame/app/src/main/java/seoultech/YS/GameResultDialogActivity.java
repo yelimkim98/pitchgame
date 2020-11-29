@@ -31,10 +31,10 @@ public class GameResultDialogActivity extends AppCompatActivity {
         sp = getSharedPreferences("pitchGameRecord", MODE_PRIVATE);
 
         getIntent = getIntent();
-        level = getIntent.getIntExtra("level", 0);
+        level = getIntent.getIntExtra("난이도", 0);
 
         levelText = findViewById(R.id.levelText_in_GameResultDialog);
-        levelText.setText("Level " + level);
+        levelText.setText("난이도 " + level);
 
         resultText = findViewById(R.id.gameResultTextView);
         result = sp.getInt("lv"+level+"_recentWrongCnt", -1);

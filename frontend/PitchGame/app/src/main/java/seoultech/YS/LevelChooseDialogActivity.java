@@ -86,8 +86,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 1;
-                levelText.setText("Level 1");
-                reset.setText("Reset Level 1 Record");
+                levelText.setText("1단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -101,8 +101,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 2;
-                levelText.setText("Level 2");
-                reset.setText("Reset Level 2 Record");
+                levelText.setText("2단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -116,8 +116,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 3;
-                levelText.setText("Level 3");
-                reset.setText("Reset Level 3 Record");
+                levelText.setText("3단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -131,8 +131,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 4;
-                levelText.setText("Level 4");
-                reset.setText("Reset Level 4 Record");
+                levelText.setText("4단계");
+                reset.setText("기록 초기화");
 
                 // read best record and show it
                 setBestScoreText();
@@ -147,8 +147,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 5;
-                levelText.setText("Level 5");
-                reset.setText("Reset Level 5 Record");
+                levelText.setText("5단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -162,8 +162,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 6;
-                levelText.setText("Level 6");
-                reset.setText("Reset Level 6 Record");
+                levelText.setText("6단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -177,8 +177,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 7;
-                levelText.setText("Level 7");
-                reset.setText("Reset Level 7 Record");
+                levelText.setText("7단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
@@ -191,8 +191,8 @@ public class LevelChooseDialogActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 level = 8;
-                levelText.setText("Level 8");
-                reset.setText("Reset Level 8 Record");
+                levelText.setText("8단계");
+                reset.setText("기록 초기화");
 
                 setBestScoreText();
                 setRecentScoreText();
